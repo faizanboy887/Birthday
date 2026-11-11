@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff0f7">
+  <title>Avdhesh ke liye 🎀</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background-glow glow-one"></div>
+  <div class="background-glow glow-two"></div>
+
+  <header class="topbar">
+    <div class="brand">♡ avdhesh Dost 🎀</div>
+    <button id="musicBtn" class="music-btn" type="button">♫ Music chalao</button>
+  </header>
+
+  <main class="app">
+    <section class="page active" id="page1">
+      <div class="eyebrow">A LITTLE SURPRISE FOR YOU 🎀</div>
+      <div class="hero-heart">💗</div>
+      <div class="sticker sticker-left">♡</div>
+      <div class="sticker sticker-right">🎀</div>
+      <h1>Hey, <span class="pink-text">Avdhesh!</span></h1>
+      <p class="subtitle">Tere liye ek cute sa surprise banaya hai! ✨</p>
+      <div class="pill">MADE WITH LOVE BY FAIZAN 💛</div>
+      <button class="main-btn next" type="button">Tap to begin →</button>
+      <p class="tiny-note">A little something for my favourite human 💕</p>
+      <div class="teddy-bottom">🧸✨</div>
+    </section>
+
+    <section class="page" id="page2">
+      <div class="eyebrow">WAIT... THIS IS FOR YOU 🎁</div>
+      <div class="gift-box" id="giftBox">🎁</div>
+      <h1>A little <span class="pink-text">Gift!</span></h1>
+      <p class="subtitle">Kuch dost itne khaas hote hain ki unke liye kuch special karna banta hai. 💗</p>
+      <button class="main-btn" id="revealGift" type="button">Open your gift 💝</button>
+      <div class="gift-message hidden" id="giftMessage">
+        <div class="big-emoji">🧸💗✨</div>
+        <h2>Surpriseee, Avdhesh! 🎉</h2>
+        <p>Ye chhoti si website specially tumhare liye hai. Hamesha khush rehna, haste rehna aur apne jaise hi awesome rehna!</p>
+      </div>
+    </section>
+
+    <section class="page" id="page3">
+      <div class="eyebrow">SAVE THE SPECIAL DATE 📅</div>
+      <div class="big-emoji">🎂</div>
+      <h1>Birthday <span class="pink-text">Countdown!</span></h1>
+      <p class="subtitle">Your special day is getting closer! 💖</p>
+      <div class="countdown">
+        <div class="time-card"><strong id="days">00</strong><span>Days</span></div>
+        <div class="time-card"><strong id="hours">00</strong><span>Hours</span></div>
+        <div class="time-card"><strong id="minutes">00</strong><span>Minutes</span></div>
+        <div class="time-card"><strong id="seconds">00</strong><span>Seconds</span></div>
+      </div>
+      <div class="date-pill">🎀 11 NOVEMBER 2026 🎀</div>
+      <p class="small-copy" id="countdownMessage">Every second brings your special day closer! ✨</p>
+    </section>
+
+    <section class="page" id="page4">
+      <div class="eyebrow">A LITTLE LETTER FROM THE HEART 💌</div>
+      <div class="big-emoji">💌</div>
+      <h1>Dear <span class="pink-text">Avdhesh!</span></h1>
+      <article class="letter">
+        <p>Hey Avdhesh! 🎀</p>
+        <p>Advance mein Happy Birthday, bhai! Maine ye chhoti si website specially tumhare liye banayi hai, taaki tumhara birthday thoda alag aur yaadgaar bane.</p>
+        <p>Zindagi mein chahe kitni bhi busy life ho, tumhari smile kabhi kam na ho. Tumhare paas hamesha khush hone ki wajah, naye sapne aur achhe dost rahen.</p>
+        <p>Meri life ka hissa hone ke liye thanks. Hamesha khush rehna, apne sapne poore karna aur aise hi mast rehna! 💗</p>
+        <p class="letter-sign">— Tumhara dost, Faizan ✨</p>
+      </article>
+      <div class="decor-row">🌷 🎀 🧸 💗 🌷</div>
+    </section>
+
+    <section class="page" id="page5">
+      <div class="eyebrow">CUTE THINGS ONLY ✨</div>
+      <h1>Little <span class="pink-text">Happiness!</span></h1>
+      <p class="subtitle">Cute stickers aur birthday vibes sirf tumhare liye! 💗
+      KISI BHI STICKER PER CLICK KARO</p>
+      <div class="sticker-grid">
+        <div class="sticker-card"><span>🧸</span><p>Teddy vibes</p></div>
+        <div class="sticker-card"><span>🎀</span><p>Pink world</p></div>
+        <div class="sticker-card"><span>🌷</span><p>New beginnings</p></div>
+        <div class="sticker-card"><span>💗</span><p>Lots of wishes</p></div>
+        <div class="sticker-card"><span>🦋</span><p>Big dreams</p></div>
+        <div class="sticker-card"><span>✨</span><p>Happy moments</p></div>
+      </div>
+      <div class="wish-card">Dua hai tumhari life khushiyon, sukoon aur beautiful surprises se bhari rahe! 💖</div>
+    </section>
+
+    <section class="page" id="page6">
+      <div class="eyebrow">LET'S PLAY A LITTLE GAME 🎮</div>
+      <div class="big-emoji">💭</div>
+      <h1>Quick <span class="pink-text">Quiz!</span></h1>
+      <p class="subtitle">Answer select karo aur secret message unlock karo! 💕</p>
+      <div class="quiz-card">
+        <h2 id="quizQuestion">1. Birthday ko special kya banata hai?</h2>
+        <div id="quizOptions" class="quiz-options"></div>
+        <p id="quizFeedback" class="quiz-feedback" aria-live="polite"></p>
+        <button id="quizContinue" class="main-btn hidden" type="button">Continue →</button>
+      </div>
+      <p class="tiny-note">No marks, just fun! 🎀</p>
+    </section>
+
+    <section class="page" id="page7">
+      <div class="eyebrow">ONE LAST SURPRISE 🤫</div>
+      <div class="big-emoji">🔐💗</div>
+      <h1>A <span class="pink-text">Secret</span> Message!</h1>
+      <p class="subtitle">Tumhare liye ek aakhri message chhupa hua hai. 💌</p>
+      <div class="secret-card">
+        <div id="secretLock" class="lock-icon">🔒</div>
+        <p id="secretHint">Tap below to unlock your message!</p>
+        <button id="unlockSecret" class="main-btn" type="button">Unlock message 💌</button>
+        <div id="secretMessage" class="hidden">
+          <div class="big-emoji">🧸💖🎉</div>
+          <h2>Avdhesh, tum ekdum khaas ho!</h2>
+          <p>Achhe dost zindagi ko aur bhi khoobsurat bana dete hain. Hamesha haste rehna, aage badhte rehna aur apna ye saal zabardast banana!</p>
+          <p class="letter-sign">Dher saari wishes ke saath, Faizan 💗</p>
+        </div>
+      </div>
+      <button id="celebrateBtn" class="main-btn hidden" type="button">Let's celebrate! 🎉</button>
+      <div id="finalMessage" class="final-message hidden">
+        <h2>HAPPY BIRTHDAY, AVDHESH! 🎂</h2>
+        <p>Khushiyan, success aur dosti hamesha tumhare saath rahe! 💗</p>
+        <div class="big-emoji">🎊🧸🎀🎊</div>
+        <button id="restartBtn" class="secondary-btn" type="button">Replay ↻</button>
+      </div>
+    </section>
+  </main>
+
+  <div id="confettiLayer" class="confetti-layer" aria-hidden="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>
